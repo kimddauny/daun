@@ -20,6 +20,12 @@ int main(void)
 		_delay_ms(500);
 		PORTD = 0xff;
 		_delay_ms(500);
+		for(int i=0; i<7; i++)
+		{
+			PORTD = ~(0x80 >> i);
+			_delay_ms(300);
+		}
+		
     }
 }
 
