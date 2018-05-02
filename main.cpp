@@ -13,6 +13,7 @@ int main(void)
 {
 	DDRD = 0xff;
 	PORTD=0xff;
+	int a;
 	
     while (1) 
     {
