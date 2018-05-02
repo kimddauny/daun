@@ -12,7 +12,7 @@
 int main(void)
 {
 	DDRD = 0xff;
-	PORTD=0xff;
+	PORTD=0xff;  // master branch
 	
     while (1) 
     {
