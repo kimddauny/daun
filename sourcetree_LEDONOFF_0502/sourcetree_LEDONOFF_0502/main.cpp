@@ -12,7 +12,7 @@
 int main(void)
 {
 	DDRD = 0xff;
-	PORTD=0xff;
+	PORTD=0xff; // led shift branch
 	
     while (1) 
     {
